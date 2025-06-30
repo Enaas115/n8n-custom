@@ -1,4 +1,7 @@
 FROM n8nio/n8n
 
-# Install Hostinger API node globally
-RUN npm install -g hostinger/api-n8n-node
+# Switch to a writable folder
+WORKDIR /data
+
+# Install Hostinger node locally
+RUN npm install hostinger/api-n8n-node
