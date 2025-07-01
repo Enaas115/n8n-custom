@@ -1,4 +1,0 @@
-n8n-custom/
-└── Hostinger/
-    ├── Hostinger.node.ts      <-- This file must export a valid n8n node
-    └── credentials/           <-- Optional if your node needs API keys
